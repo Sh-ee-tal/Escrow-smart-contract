@@ -1,1 +1,1 @@
-# Escrow 
+# Escrow smart-contract
