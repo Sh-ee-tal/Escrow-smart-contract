@@ -60,7 +60,6 @@ impl Escrow for Contract {
             State::awate_payment => (),
             _ => revert(0),
         };
-
         storage.state = State::awate_delivery;
     }
     #[storage(read, write)]
